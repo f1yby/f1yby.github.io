@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes (Microk8s) 快速搭建指南"
 date: 2022-08-29
-last_modified_at: 2022-08-29
+last_modified_at: 2022-09-16
 categories:
   - blog
 tags:
@@ -33,7 +33,7 @@ NO_PROXY=10.0.0.0/8,192.168.0.0/16,127.0.0.1,172.16.0.0/16
 https_proxy=$proxy_server
 http_proxy=$proxy_server
 no_proxy=10.0.0.0/8,192.168.0.0/16,127.0.0.1,172.16.0.0/16
-" | sudo tee /etc/environment
+" | sudo tee -a /etc/environment
 ```
 
 ### 安装 [snap](https://snapcraft.io/docs/installing-snapd)
