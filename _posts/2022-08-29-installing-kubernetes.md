@@ -12,7 +12,7 @@ tags:
 
 ## 安装 **Microk8s**
 
-### TL;DR
+### TL; DR
 
 1. 准备一个可以使用 clash 规则的科学上网服务
 2. 执行 `curl -sL https://raw.githubusercontent.com/f1yby/se2320-miscellaneous/master/k8s/setup.sh > setup.sh`，或是将[setup.sh](https://github.com/f1yby/se2320-miscellaneous/blob/master/k8s/setup.sh)手动保存到本地
