@@ -14,16 +14,51 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Flyby's Programming Lodge"
-email:
+title_separator: "-"
+email: "wangjiarui4@outlook.com"
 description: "Solutions & Ideas"
+
 twitter_username:
 github_username: f1yby
-minimal_mistakes_skin: default
+
+
 search: true
+search_full_content: true
+
+url: "https://f1yby.github.io"
+repository: "f1yby/f1yby.github.io" 
+
+
+
+google_site_verification: "SWecGFgEgdrKUJMFoUqps8SUj2uC2eJE_V7VWhL30RM"
+baidu_site_verification: "code-2ElcFYZcon"
+bing_site_verification:
+naver_site_verification:
+yandex_site_verification:
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed 
 # Outputting
 permalink: /:categories/:title
 paginate: 5 # amount of posts to show
