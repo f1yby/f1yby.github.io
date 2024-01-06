@@ -1,5 +1,5 @@
 ---
-title: "arm [N, Z, C, V] 映射至 x86 [eflags]"
+title: "arm [N, Z, C, V] 映射至 x86 [EFLAGS]"
 date: 2024-01-02
 categories:
   - gossip
@@ -11,7 +11,7 @@ tags:
 
 ## arm 中的条件码 (Condition Code)
 
-arm 中 后缀带 `S` (flag-setting *设置标志*) 的指令会设置 `CPSR` (Current Program Status Register *当前程序状态寄存器*) ，比如 `ADDS`，而对应的`ADD`指令则不会设置条件码。
+arm 中 后缀带 `S` (flag-setting *设置标志*) 的计算指令会设置 `CPSR` (Current Program Status Register *当前程序状态寄存器*) ，比如 `ADDS`，而对应的`ADD`指令则不会设置条件码。
 
 而 `CPSR` 中涉及条件判断的四位分别是：
 
