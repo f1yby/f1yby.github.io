@@ -94,10 +94,12 @@ defaults:
       type: posts
     values:
       layout: single
+      toc: true
+      toc_sticky: true
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      # share: true
       related: true
   # _pages
   - scope:
