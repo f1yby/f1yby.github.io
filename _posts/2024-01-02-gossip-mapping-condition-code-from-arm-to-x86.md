@@ -1,5 +1,5 @@
 ---
-title: " Mapping Condition Code from arm [N, Z, C, V] to x86 [EFLAGS]"
+title: "Mapping Condition Code from arm [N, Z, C, V] to x86 [EFLAGS]"
 date: 2024-01-02
 categories:
   - gossip
