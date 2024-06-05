@@ -1,7 +1,10 @@
 ---
 title: "Mapping Condition Code from arm [N, Z, C, V] to x86 [EFLAGS]"
+lang: en
+ref: mapping-condition-code-from-arm-to-x86
 date: 2024-01-02
 categories:
+  - en
   - gossip
 tags:
   - arm
